@@ -14,7 +14,7 @@ public class Demo {
    ArrayList list=new ArrayList();
 
 public  void getdata(){
-    Log.e("Dta_03","Dya)3");
+    Log.e("Dta_03","week092");
 
 }
 

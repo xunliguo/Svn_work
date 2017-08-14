@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus_pc.svn_work.Main2Activity">
+    <RelativeLayout
+        android:background="#FFF200"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高晓松简介"
+            android:textSize="20sp"
+            android:layout_marginLeft="20px"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <Button
+                android:layout_width="120dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="个人简述"
+
+                android:id="@+id/jainshu"
+                />
+            <Button
+
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="个人图片"
+                android:layout_weight="1"
+                android:id="@+id/image"
+                />
+            <Button
+
+                android:layout_width="120dp"
+
+                android:layout_height="wrap_content"
+                android:text="更多内容"
+                android:id="@+id/conont"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment"
+            >
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
